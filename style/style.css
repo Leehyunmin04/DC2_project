@@ -10,10 +10,15 @@ body {
 
 .img {
   position: absolute;
-  top: 0;
   width: 100%;
   left: 0;
   right: 0;
+}
+.img-1 {
+  padding-top: 4vw;
+}
+.img-2 {
+  padding-top: 8vw;
 }
 
 .time {
@@ -26,79 +31,79 @@ body {
   pointer-events: none;
 }
 .time-1 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(21, 21, 21), rgb(39, 39, 39));
 }
 .time-2 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(39, 39, 39), rgb(94, 94, 94));
 }
 .time-3 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(94, 94, 94), rgb(142, 149, 167));
 }
 .time-4 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(142, 149, 167), rgb(201, 212, 238));
 }
 .time-5 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(201, 212, 238), rgb(165, 205, 255));
 }
 .time-6 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(165, 205, 255), rgb(126, 182, 251));
 }
 .time-7 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(126, 182, 251), rgb(83, 159, 252));
 }
 .time-8 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(83, 159, 252), rgb(53, 142, 252));
 }
 .time-9 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(53, 142, 252), rgb(26, 128, 251));
 }
 .time-10 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(26, 128, 251), rgb(100, 153, 219));
 }
 .time-11 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(100, 153, 219), rgb(118, 155, 201));
 }
 .time-12 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(118, 155, 201), rgb(243, 176, 105));
 }
 .time-13 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(243, 176, 105), rgb(234, 160, 81));
 }
 .time-14 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(234, 160, 81), rgb(239, 148, 51));
 }
 .time-15 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(239, 148, 51), rgb(237, 140, 61));
 }
 .time-16 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(237, 140, 61), rgb(235, 153, 66));
 }
 .time-17 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(235, 153, 66), rgb(49, 43, 62));
 }
 .time-18 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(49, 43, 62), rgb(32, 30, 43));
 }
 .time-19 {
-  padding-block: 100vw;
+  padding-block: 50vw;
   background: linear-gradient(to bottom, rgb(32, 30, 43), rgb(17, 16, 26));
 }
 
@@ -106,8 +111,5 @@ body {
   position: absolute;
   margin-inline: auto;
   text-align: center;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: rgba(255, 255, 255, 0.598);
 }

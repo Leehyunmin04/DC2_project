@@ -72,5 +72,15 @@ body {
   position: absolute;
   margin-inline: auto;
   text-align: center;
+  right: 0;
+  left: 0;
+  padding-top: 15vw;
+  font-size: 25px;
   color: rgba(255, 255, 255, 0.598);
+  @media (max-width: 750px) {
+    font-size: 15px;
+  }
+  @media (max-width: 450px) {
+    font-size: 10px;
+  }
 }

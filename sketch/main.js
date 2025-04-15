@@ -13,6 +13,7 @@ const observer = new IntersectionObserver(
   }
 );
 observer.observe(image);
+//////////////////
 
 // const container = document.querySelector('.image-container');
 const leaves = document.querySelectorAll('.leaf');
@@ -41,7 +42,7 @@ window.addEventListener('load', () => {
     leaf.style.animationDelay = `${delay}s`;
   });
 });
-
+///////////////////
 const sparkles = document.querySelectorAll('.sparkle');
 const container = document.querySelector('.image-container');
 
@@ -68,6 +69,7 @@ window.addEventListener('load', () => {
     }, interval);
   });
 });
+//////////////////
 // 물방울 생성
 // 물방울 생성
 const waterBubbles = document.querySelector('.water-bubbles');
@@ -98,3 +100,24 @@ function createBubble() {
 
 // 물방울을 일정 시간마다 생성
 setInterval(createBubble, 500);
+document.addEventListener('DOMContentLoaded', () => {
+  const overlay = document.querySelector('.overlay-image');
+
+  if (!overlay) {
+    console.error('overlay-image를 찾을 수 없습니다!');
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  observer.observe(overlay);
+});

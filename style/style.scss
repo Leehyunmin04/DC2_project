@@ -74,10 +74,10 @@ body {
 }
 .leaf {
   position: absolute;
-  width: 10vw;
+  width: 13vw;
   animation: floatLeaf 5s linear infinite;
   top: -50px;
-  opacity: 0.8;
+  // opacity: 0.8;
 }
 @keyframes floatLeaf {
   0% {
@@ -140,7 +140,7 @@ body {
 
 .bubble {
   position: absolute;
-  width: 5vw;
+  width: 8vw;
   height: auto;
   animation: bubbleUp 4s linear forwards;
   // opacity: 0.7;
